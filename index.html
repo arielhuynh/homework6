@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Weather Dashboard</h1>
+        </div>
+    </div>
+
+
+   
+    
+    <div class="searchbox">
+        <div class="row">
+            <div class="col-md-2">
+                <h3 id="search">Search for a City:</h3>
+                <form id="form">
+                    <input type="text" id="input">
+                    <button class="btn btn-primary fa fa-search" type="submit" id="search"></button>
+                </form>
+                <div class="prev-search">
+                   
+                </div>
+            </div>
+            <div class="col-md-10">
+                <h2 id="city-date"></h2>
+                <div class="currrent-weather"></div>
+                <div id="weather-image"></div>
+                <div class="temp"></div>
+                <div class="wind"></div>
+                <div class="humidity"></div>
+                <div class="uv-index"></div>
+                <h2 id="forecast">5-Day Forecast</h2>
+                <div class="row" id="forecast-area">
+                  
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
